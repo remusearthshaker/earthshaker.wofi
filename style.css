@@ -1,0 +1,68 @@
+
+/* Earthshaker Palette
+   wildflower:         #ffc07c;
+   berrythorn:         #ff6655;
+   bloom:              #f7c59f;
+   sage:               #6c8f6c;
+   bark:               #d68e5d;
+   pollen:             #eabf6a;
+   leaf:               #90b48f;
+   newbud:             #acc196;
+   fernmist:           #a3b18a;
+   moss:               #7c8474;
+   deepsage:           #809775;
+   sunlight:           #e0d6c3;
+   lightsage:          #c9d8b6;
+   mutedolive:         #b5bfa1;
+   overlay_moss:       #7c8474;
+   overlay_deepmoss:   #585b5c;
+   overlay_barkshadow: #3a3938;
+   barkdark:           #2c302c;
+   canopyshadow:       #232220;
+   forestfloor:        #1a1c1b;
+   deepforestfloor:    #181816;
+   blacksoil:          #121210;
+*/
+
+window {
+  background-color: #181816;
+  color: #e0d6c3;
+  border: 2px solid #3a3938;
+  border-radius: 8px;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 14px;
+}
+
+#input {
+  background-color: #2c302c;
+  color: #ffc07c;
+  border: none;
+  padding: 10px 14px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+#inner-box {
+  margin: 10px;
+}
+
+#entry {
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #c9d8b6;
+}
+
+#entry:selected {
+  background-color: #3a3938;
+  color: #ffc07c;
+}
+
+#scroll {
+  margin: 0 10px;
+}
+
+#text {
+  margin-left: 12px;
+}
