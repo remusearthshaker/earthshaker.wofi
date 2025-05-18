@@ -66,3 +66,11 @@ window {
 #text {
   margin-left: 12px;
 }
+
+img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  vertical-align: middle;
+  filter: brightness(0.9) contrast(1.1);
+}
